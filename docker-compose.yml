@@ -35,7 +35,7 @@ services:
       - wp
 
   pma:
-    image: phpmyadmin/phpmyadmin:5.2
+    image: phpmyadmin/phpmyadmin:5.1
     environment:
       # https://docs.phpmyadmin.net/en/latest/setup.html#docker-environment-variables
       PMA_HOST: db
